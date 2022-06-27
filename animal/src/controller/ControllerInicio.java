@@ -3,9 +3,11 @@ package controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.stage.Stage;
 
 public class ControllerInicio {
 
+	private Stage stage;
     @FXML
     private Button animal1;
 
@@ -39,5 +41,10 @@ public class ControllerInicio {
     void b50d0d(ActionEvent event) {
 
     }
+
+	public void setStage(Stage primaryStage) {
+		stage = primaryStage;
+		
+	}
 
 }
