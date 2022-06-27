@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerAnimal1">
+   <children>
+            <Button layoutX="433.0" layoutY="519.0" mnemonicParsing="false" onAction="#close" prefHeight="49.0" prefWidth="164.0" text="Salir" textFill="#b50d0d" />
+      <ImageView fitHeight="374.0" fitWidth="618.0" layoutX="185.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../viewimg/marco1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
