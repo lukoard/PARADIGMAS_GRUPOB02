@@ -7,10 +7,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controller.ControllerInicio">
+<AnchorPane prefHeight="300.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerInicio">
    <children>
-      <Label alignment="TOP_CENTER" layoutX="192.0" layoutY="64.0" prefHeight="49.0" prefWidth="405.0" text="ANIMAL RIDDLE" textAlignment="CENTER">
+      <Label alignment="TOP_CENTER" layoutX="206.0" layoutY="31.0" prefHeight="49.0" prefWidth="352.0" text="ANIMAL RIDDLE" textAlignment="CENTER">
          <font>
             <Font size="25.0" />
          </font>
@@ -24,5 +23,6 @@
             <Image url="@../viewimg/index.jpeg" />
          </image>
       </ImageView>
+      <Label layoutX="357.0" layoutY="135.0" prefHeight="24.0" prefWidth="131.0" text="please click to start" />
    </children>
 </AnchorPane>

@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerAnimal2">
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerAnimal1">
    <children>
             <Button layoutX="433.0" layoutY="519.0" mnemonicParsing="false" onAction="#close" prefHeight="49.0" prefWidth="164.0" text="Salir" textFill="#b50d0d" />
       <ImageView fitHeight="374.0" fitWidth="618.0" layoutX="185.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
@@ -14,7 +14,5 @@
             <Image url="@../viewimg/marco1.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="27.0" layoutY="105.0" prefHeight="178.0" prefWidth="127.0" text="gdf" />
-      <TextField fx:id="NameAnimal" layoutX="186.0" layoutY="446.0" prefHeight="41.0" prefWidth="484.0" />
    </children>
 </AnchorPane>

@@ -1,7 +1,7 @@
 package application;
-
 	
 import java.io.IOException;
+
 import controller.ControllerInicio;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -14,7 +14,7 @@ import javafx.scene.Scene;
 
 public class Main extends Application {
 	@Override
-	public void start(Stage primaryStage) throws IOException  {
+	public void start(Stage primaryStage) throws IOException {
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/inicio.fxml"));
 		Parent root = loader.load();
 		Scene scene = new Scene (root);
@@ -22,9 +22,22 @@ public class Main extends Application {
 		ControllerInicio controller = loader.getController();
 		controller.setStage(primaryStage);
 		primaryStage.show();
-		primaryStage.setTitle("Animal Riddle");
 	}
 		
+		//		try {
+//			BorderPane root = new BorderPane();
+//			Scene scene = new Scene(root,600,600);
+//			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+//			primaryStage.setScene(scene);
+//			primaryStage.centerOnScreen();
+//			primaryStage.setResizable (true);
+//			primaryStage.setTitle ("ANIMAL RIDDLE");
+//			primaryStage.show();
+//		} catch(Exception e) {
+//			e.printStackTrace();
+	
+//	}
+	
 	public static void main(String[] args) {
 		launch(args);
 	}
